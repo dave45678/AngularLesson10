@@ -1,3 +1,4 @@
+// src/app/course.component.ts
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
@@ -20,7 +21,8 @@ export class CourseComponent implements OnInit {
    // Create form
    courseForm = new FormGroup({
        title: new FormControl('', Validators.required),
-       category: new FormControl('', Validators.required)
+       credit: new FormControl('', Validators.required),
+       instructor: new FormControl('', Validators.required),
    });
    // Create constructor to get service instance
    constructor(private courseService: CourseService) {

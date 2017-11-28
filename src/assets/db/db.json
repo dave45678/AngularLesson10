@@ -3,13 +3,13 @@
     {
       "title": "Angular Intro",
       "instructor": "Smithers",
-	  "credit": 3,
+      "credit": 3,
       "id": 1
     },
     {
       "title": "Spring Intro",
       "instructor": "Simpson",
-	  "credit": 3,
+      "credit": 3,
       "id": 2
     }
   ]

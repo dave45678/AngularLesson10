@@ -1,3 +1,4 @@
+// src/app/app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -9,7 +10,7 @@ import { CourseService } from './course.service';
 
 @NgModule({
   imports: [
-        BrowserModule,
+    BrowserModule,
     HttpModule,
     ReactiveFormsModule
   ],
